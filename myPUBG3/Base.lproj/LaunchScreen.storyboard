@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camo6" translatesAutoresizingMaskIntoConstraints="NO" id="YV2-zU-Npw">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="app icon designed by Freepic,Flat Icon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNV-AR-NWj">
+                                <rect key="frame" x="40.5" y="611" width="295" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ak" translatesAutoresizingMaskIntoConstraints="NO" id="gdO-XE-Dmc">
+                                <rect key="frame" x="153.5" y="166" width="128" height="104"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="128" id="Xar-fm-cOG"/>
+                                    <constraint firstAttribute="height" constant="104" id="dbk-jn-isb"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soldierr" translatesAutoresizingMaskIntoConstraints="NO" id="DPx-7f-2NL">
+                                <rect key="frame" x="123.5" y="166" width="128" height="103"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="103" id="U5k-gt-s14"/>
+                                    <constraint firstAttribute="width" constant="128" id="zwn-LJ-89B"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="myPUBG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JcZ-aH-7C5">
+                                <rect key="frame" x="118.5" y="295" width="138" height="76"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gdO-XE-Dmc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="146" id="38e-hV-oOa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YV2-zU-Npw" secondAttribute="bottom" id="DrN-AO-BPM"/>
+                            <constraint firstItem="JcZ-aH-7C5" firstAttribute="top" secondItem="gdO-XE-Dmc" secondAttribute="bottom" constant="25" id="EG2-bD-KvF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DNV-AR-NWj" secondAttribute="bottom" constant="35" id="I3h-n8-CPb"/>
+                            <constraint firstItem="YV2-zU-Npw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="J6W-ci-pDb"/>
+                            <constraint firstItem="DNV-AR-NWj" firstAttribute="top" secondItem="JcZ-aH-7C5" secondAttribute="bottom" constant="240" id="J95-Xa-com"/>
+                            <constraint firstItem="JcZ-aH-7C5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="K2q-lj-FXi"/>
+                            <constraint firstItem="DNV-AR-NWj" firstAttribute="top" secondItem="gdO-XE-Dmc" secondAttribute="bottom" constant="341" id="THR-gf-f0u"/>
+                            <constraint firstItem="YV2-zU-Npw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ZtQ-J7-xvA"/>
+                            <constraint firstItem="DPx-7f-2NL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cT4-2R-F2F"/>
+                            <constraint firstItem="DNV-AR-NWj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="h29-ZF-iIg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YV2-zU-Npw" secondAttribute="trailing" id="rxe-5w-02Z"/>
+                            <constraint firstItem="DPx-7f-2NL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="146" id="s7y-lA-WY7"/>
+                            <constraint firstItem="gdO-XE-Dmc" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="30" id="vHg-qr-bvz"/>
+                            <constraint firstItem="DNV-AR-NWj" firstAttribute="top" secondItem="DPx-7f-2NL" secondAttribute="bottom" constant="342" id="wi9-wB-IyZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ak" width="128" height="128"/>
+        <image name="camo6" width="446" height="376"/>
+        <image name="soldierr" width="128" height="128"/>
+    </resources>
+</document>
